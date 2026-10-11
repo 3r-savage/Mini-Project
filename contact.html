@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <h1 class="header-title">My Portfolio</h1>
+            <p class="header-subtitle">ช่องทางการติดต่อและส่งข้อความหาผม</p>
+        </div>
+    </header>
+
+    <nav>
+        <a href="index.html"><i class="fa-solid fa-house"></i> หน้าแรก</a>
+        <a href="about.html"><i class="fa-solid fa-user"></i> ประวัติและทักษะ</a>
+        <a href="portfolio.html"><i class="fa-solid fa-briefcase"></i> ผลงาน</a>
+        <a href="contact.html" class="active"><i class="fa-solid fa-envelope"></i> ติดต่อ</a>
+    </nav>
+
+    <main class="container">
+        <h2 class="page-title">ติดต่อฉัน (Contact Me)</h2>
+
+        <div style="text-align: center; margin-bottom: 2rem;">
+            <p><i class="fa-solid fa-envelope"></i> Email: 684259058@webmail.npru.ac.th</p>
+            <p><i class="fa-brands fa-github"></i> GitHub: github.com/3r-savage</p>
+            <p><i class="fa-brands fa-instagram"></i> Instagram: _.twxxchxt1.8</p>
+        </div>
+
+        <div class="contact-form">
+            <h3 style="text-align: center; margin-bottom: 1.5rem; color: var(--primary-dark-color);">แบบฟอร์มติดต่อ</h3>
+            <form>
+                <div class="form-group">
+                    <label for="name">ชื่อ-นามสกุล:</label>
+                    <input type="text" id="name" placeholder="กรอกชื่อของคุณ">
+                </div>
+                <div class="form-group">
+                    <label for="email">อีเมล:</label>
+                    <input type="email" id="email" placeholder="กรอกอีเมลของคุณ">
+                </div>
+                <div class="form-group">
+                    <label for="message">ข้อความ:</label>
+                    <textarea id="message" rows="4" placeholder="พิมพ์ข้อความที่ต้องการส่งถึงผม..."></textarea>
+                </div>
+                <button type="submit" class="btn" style="width: 100%;">ส่งข้อความ</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Portfolio Website. Nithiwat.</p>
+    </footer>
+</body>
+</html>
